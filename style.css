@@ -303,6 +303,16 @@ main{
     padding-top: 5px;
     font-size: 16px;
   }
+/* задаём поведение на мобильном устройстве */
+  @media (max-width: 730px) {
+      .countdown{
+          font-size: 15px;
+      }
+      .countdown-text{
+          font-size: 10px;
+      }
+  }
+
 /* COUNTDOWN END */
 
 /* FOOTER */
